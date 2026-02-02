@@ -89,17 +89,10 @@ u16* AnalogSensing_boardConfig();
 ICANBus* MainCANBus_boardConfing();
 
 
-IUart* GmuPort_boardConfig(IGpio*& pIndicateLed);
-DrvRs485* LidarPort_boardConfig(IGpio*& pFlowPin, IUart*& pPort, IGpio*& pIndicateLed);
 DrvRs485* ModuleNetworkPort_boardConfig(IGpio*& pIndicateLed);
 
 
-
-bool DriveModulePin_Config(IGpio*& pRelay, IGpio*& pEmerg);
 EncOneway* DriveSpeedSens_Config();
-
-
-
 
 
 
